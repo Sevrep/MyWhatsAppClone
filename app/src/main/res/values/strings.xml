@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">MyWhatsAppClone</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">CnUk5rHvDAe2j7vpgAcGzuuZaHykg7uxye21U4YY</string>
+    <string name="back4app_client_key">gmofZlJaRuOJzXs3eKTM3098FRTBF0otpV6lZoJT</string>
+    <string name="todo">TODO</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
+    <string name="enter_username">Enter username…</string>
+    <string name="enter_email">Enter email…</string>
+    <string name="enter_password">Enter password…</string>
+    <string name="please_enter_an_email">Please enter an email…</string>
+    <string name="please_enter_a_password">Please enter a password…</string>
+    <string name="log_in">Log In</string>
+    <string name="please_enter_an_username">Please enter an username…</string>
+    <string name="send_a_tweet">Send a tweet..</string>
+    <string name="view_other_user_s_tweets">View other users tweets</string>
+    <string name="logout">Logout</string>
 </resources>
