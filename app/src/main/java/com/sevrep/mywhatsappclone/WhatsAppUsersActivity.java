@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -18,7 +20,7 @@ import com.shashank.sony.fancytoastlib.FancyToast;
 
 import java.util.ArrayList;
 
-public class WhatsAppUsersActivity extends AppCompatActivity {
+public class WhatsAppUsersActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
 
     private ListView listView;
     private ArrayList<String> waUsers;
@@ -66,6 +68,13 @@ public class WhatsAppUsersActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         logout();
+    }
+
+    @Override
+    public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        Intent intent = new Intent(this, WhatsAppChatActivity.class);
+        intent.putExtra("selectedUser", waUsers.get(position));
+        startActivity(intent);
     }
 
     private void loadList() {
@@ -126,5 +135,4 @@ public class WhatsAppUsersActivity extends AppCompatActivity {
                 .create()
                 .show();
     }
-
 }

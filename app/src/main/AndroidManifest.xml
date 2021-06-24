@@ -14,7 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyWhatsAppClone"
         android:usesCleartextTraffic="true">
-        <activity android:name=".WhatsAppUsersActivity"></activity>
+        <activity android:name=".WhatsAppChatActivity"></activity>
+        <activity android:name=".WhatsAppUsersActivity" />
         <activity android:name=".SignUpActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -33,7 +34,6 @@
         <meta-data
             android:name="com.parse.CLIENT_KEY"
             android:value="@string/back4app_client_key" />
-
     </application>
 
 </manifest>

@@ -16,4 +16,11 @@
     <string name="send_a_tweet">Send a tweet..</string>
     <string name="view_other_user_s_tweets">View other users tweets</string>
     <string name="logout">Logout</string>
+    <string name="enter_message_here">Enter message here...</string>
+    <string name="chat_date">June 10</string>
+    <string name="message_ko">This is a Message</string>
+    <string name="chat_time">10:00</string>
+    <string name="message_nila">Message</string>
+    <string name="name_nila">John Grady Cole</string>
+    <string name="icon_nila">User Icon</string>
 </resources>
