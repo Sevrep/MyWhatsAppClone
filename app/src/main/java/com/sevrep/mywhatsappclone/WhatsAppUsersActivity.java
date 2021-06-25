@@ -41,6 +41,7 @@ public class WhatsAppUsersActivity extends AppCompatActivity implements AdapterV
         swipeRefreshLayout.setOnRefreshListener(this::refreshList);
 
         listView = findViewById(R.id.listView);
+        listView.setOnItemClickListener(this);
 
         if (adapter.isEmpty()) {
             loadList();
